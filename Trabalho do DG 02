@@ -1,0 +1,26 @@
+ caso 1
+         valorpizzainteiro <- valorpizzainteiro + 40
+         tempoentrega <- tempoentrega + 2
+         piz_1 <- " Pizza de Mussarela -> 40,00 R$"
+         qtd_1 <- 1 + qtd_1
+         c_1 <- 1
+      caso 2
+         valorpizzainteiro <- valorpizzainteiro + 42
+         tempoentrega <- tempoentrega + 2
+         piz_2 <- "Pizza de Calabresa -> 42,00 R$"
+         qtd_2 <- 1 + qtd_2
+         c_3 <- 1
+      caso 3
+         valorpizzainteiro <- valorpizzainteiro + 50
+         tempoentrega <- tempoentrega + 2
+         piz_3 <- "Pizza  de Peperoni -> 50,00 R$"
+         qtd_3 <- 1 + qtd_3
+         c_3 <- 1
+         outrocaso
+           escreval("Escolha um código válido")
+      fimescolha
+      escreval("deseja Finalizar o pedido?")
+      escreval("  (1) = SIM  |  (2) NÃO   ")
+      leia (pedido)
+    fimse
+    //inserção de bebida
